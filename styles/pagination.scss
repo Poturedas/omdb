@@ -1,0 +1,25 @@
+.pager {
+  li a {
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    padding: 10px;
+    color: white;
+    &:hover {
+      color: #9bff3d;
+      border-color: transparent;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    &:focus {
+      color: #9bff3d;
+      border-color: #9bff3d;
+      background-color: rgba(255, 255, 255, 0.1);
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
