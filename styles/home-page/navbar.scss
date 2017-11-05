@@ -1,7 +1,7 @@
 .navigation {
   margin-bottom: 35px;
   .navbar-nav {
-    border-bottom: 1px solid rgba(255,255,255,.15);
+    border-bottom: 1px solid $border-color;
     display: block;
     width: 100%;
     margin: 0;
@@ -10,19 +10,19 @@
       a {
         padding: 20px 5px;
         margin: 0 10px;
-        color: white;
+        color: $text-color;
         transition: all 60ms linear 30ms;
         &:first-child {
           margin-left: 0;
         }
         &:hover {
           background-color: transparent;
-          box-shadow: inset 0 -4px 0 0 rgba(255,255,255,.2);
+          box-shadow: inset 0 -4px 0 0 $border-color;
         }
         &:focus {
           background-color: transparent;
-          color: #9bff3d;
-          box-shadow: inset 0 -4px 0 0 #9bff3d;
+          color: $accent-color;
+          box-shadow: inset 0 -4px 0 0 $accent-color;
         }
       }
     }

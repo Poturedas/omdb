@@ -3,12 +3,12 @@
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   text-decoration: none;
-  color: white;
+  color: $text-color;
   &:hover {
     cursor: pointer;
-    color: white;
+    color: $text-color;
     text-decoration: none;
-    background-color: rgba(255,255,255,.13);
+    background-color: rgba(255,255,255, 0.13);
     box-shadow: 0 6px 18px rgba(0,0,0,.25);
   }
   h3 {
@@ -54,15 +54,13 @@
     line-height: 1;
     font-weight: 700;
     display: inline-block;
-    background-color: #edc94f;
-    background: linear-gradient(to right, #e1a82f 0%, #f7eb72 50%, #e1a82f 100%);
-    border-radius: 2px;
+    background-color: $accent-color;
     color: black;
     font-size: 11px;
     padding: 2px 4px 2px;
   }
   .dot {
-    color: #777;
+    color: $dot-color;
   }
 }
 

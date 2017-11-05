@@ -1,6 +1,11 @@
+@import "./colors";
+
 @import "./global";
-@import "./head";
-@import "./navbar";
-@import "./movie-item";
-@import "./pagination";
-@import "./footer";
+@import "home-page/head";
+@import "home-page/navbar";
+@import "home-page/movie-item";
+@import "home-page/pagination";
+@import "home-page/footer";
+
+@import "movie-page/navbar";
+@import "movie-page/content";

@@ -1,0 +1,25 @@
+.pager {
+  li a {
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid $pagination-color;
+    background: transparent;
+    padding: 10px;
+    color: $text-color;
+    &:hover {
+      color: $accent-color;
+      border-color: transparent;
+      background-color: $pagination-color;
+    }
+    &:focus {
+      color: $accent-color;
+      border-color: $accent-color;
+      background-color: $pagination-color;
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+}

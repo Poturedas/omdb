@@ -1,11 +1,11 @@
 html {
-  background: url("../img/bg-blurred.jpg")no-repeat center center fixed;
+  background: url("../img/bg-blurred.png")no-repeat center center fixed;
   background-size: cover;
 }
 
 body {
   background-color: transparent;
-  color: white;
+  color: $text-color;
 }
 
 .logo{
