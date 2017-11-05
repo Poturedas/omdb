@@ -1,0 +1,61 @@
+.movie-page {
+  .movie {
+    position: relative;
+    .poster {
+      object-fit: cover;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+    }
+    .info {
+      .rating {
+        display: flex;
+        margin-bottom: 30px;
+        .rating-block {
+          display: flex;
+          width: 25%;
+          font-size: 16px;
+          text-align: center;
+          .sprite {
+            background: no-repeat url("../img/rating-sprite.png");
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            vertical-align: middle;
+            background-size: 50px 150px;
+          }
+          .score {
+            line-height: 50px;
+            padding-left: 15px;
+            font-weight: 600;
+          }
+          .imdb-icon {
+            background-position: 0 0;
+          }
+          .rtms-icon {
+            background-position: 0 -50px;
+          }
+          .meta-icon {
+            background-position: 0 -100px;
+          }
+        }
+      }
+      .dot {
+        color: $dot-color;
+      }
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .poster {
+      max-width: 66%;
+      img {
+        max-width:100%;
+      }
+    }
+  }
+}

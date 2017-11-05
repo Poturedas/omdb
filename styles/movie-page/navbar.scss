@@ -1,0 +1,52 @@
+.movie-page {
+  .navbar {
+    background-color: transparent;
+    border-color: transparent;
+    padding-right: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    .glyphicon {
+      color: $glyphicon-color;
+    }
+    .nav-btn-left {
+      margin-left: 15px;
+      margin-right: auto;
+      padding-left: 16px;
+      padding-right: 20px;
+      .glyphicon {
+        padding-right: 5px;
+      }
+    }
+    .btn-default {
+      background-color: transparent;
+      border: 2px solid $border-color;
+      border-radius: 50px;
+      height: 45px;
+      min-width: 45px;
+      transition: all 300ms;
+      color: $back-button-text-color;
+      &:hover {
+        background-color: transparent;
+        border-color: $border-hover-color;
+      }
+      &:active:focus, &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px $accent-color;
+      }
+    }
+    .btn-group {
+      margin-right: 15px;
+      .btn + .btn {
+        margin-left: 5px;
+      }
+      .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+      }
+      .btn:last-child:not(:first-child) {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+    }
+  }
+}
