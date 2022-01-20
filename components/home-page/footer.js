@@ -7,7 +7,11 @@ export default function Footer() {
         <a className="navbar-brand" href="index.html"><img src="img/logo.svg" alt="OMDB" /></a>
       </div>
       <div>
+<<<<<<< Updated upstream
         <div className="quotes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dolore ea et eum, inventore ipsa iusto magni neque pariatur rem sit velit? Consequuntur cumque dicta eius ipsum iure possimus repudiandae?</div>
+=======
+        <div className="quotes">oFFFF Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dolore ea et eum, inventore ipsa iusto magni neque pariatur rem sit velit? Consequuntur cumque dicta eius ipsum iure possimus repudiandae?</div>
+>>>>>>> Stashed changes
       </div>
     </footer>
   )
